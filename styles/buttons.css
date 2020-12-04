@@ -1,0 +1,115 @@
+.top-nav > .right-column > .btns-and-links {
+  display: flex;
+  margin-left: 325px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  margin-top: 0px;
+  padding: 10px;
+}
+
+.top-nav > .right-column > .btns-and-links > .a-btn > .btn {
+  margin-right: 15px;
+  background-color: #343436;
+  color: white;
+  font-family: "Lato", "Lucida Grande", "Lucida sans Unicode", Tahoma,
+    Sans-Serif;
+  font-size: 1rem;
+  text-shadow: none;
+  line-height: 1.2;
+  display: inline-block;
+  height: 45px;
+  outline: 0;
+  padding: 10px 16px;
+  margin-top: 0px;
+  position: relative;
+  border-radius: 3px;
+  border: 3px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none !important;
+  text-align: center;
+  font-weight: normal !important;
+  transition: 0s;
+}
+
+.top-nav > .right-column > .btns-and-links > .a-btn > .btn:hover {
+  background-color: #4d4d50;
+}
+
+.top-nav > .right-column > .btns-and-links > .a-btn > .btn > .create-btn {
+  display: flex;
+  width: 80px;
+}
+
+.top-nav > .right-column > .btns-and-links > .a-btn > .btn > .create-btn i {
+  margin-left: 10px;
+  font-size: 1.2em;
+  color: #47cf73;
+}
+
+.page-content > .page-content-left > .btns {
+  display: flex;
+}
+
+.page-content > .page-content-left > .btns > .SUFF-btn > .btn {
+  justify-content: flex-end;
+  font-size: 2em;
+  background-color: #47cf73;
+  color: white;
+  text-shadow: none;
+  line-height: 1.2;
+  display: inline-block;
+  outline: 0;
+  padding: 10px 16px;
+  margin: 0 10px 0 0;
+  position: relative;
+  border-radius: 3px;
+  border: 3px solid transparent;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none !important;
+  text-align: center;
+  font-weight: normal !important;
+}
+
+.page-content > .page-content-left > .btns > .LM-btn > .btn {
+  font-size: 2em;
+  background-color: #111;
+  text-shadow: none;
+  line-height: 1.2;
+  display: inline-block;
+  outline: 0;
+  padding: 10px 16px;
+  margin: 0 10px 0 0;
+  position: relative;
+  border-radius: 3px;
+  border: 3px solid transparent;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none !important;
+  text-align: center;
+  font-weight: normal !important;
+}
+
+.page-content > .page-content-bottom > .btns > .btn {
+  padding: 0.5rem 1rem;
+  color: white;
+  text-align: center;
+  background-color: #373737;
+  border: 1px solid #676767;
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.page-content > .page-content-bottom > .btns > .btn > .codepen-for-content {
+  text-transform: uppercase;
+}
