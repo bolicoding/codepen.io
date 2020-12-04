@@ -1,0 +1,125 @@
+.top-nav {
+  display: flex;
+  background: black;
+  border-bottom: 1px solid #222;
+  align-items: middle;
+  position: relative;
+  height: 65px;
+}
+
+.top-nav > .left-left-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 42px;
+  width: 200px;
+}
+
+.top-nav > .left-left-column img {
+  width: 140px;
+  height: 25px;
+  padding: 20px;
+  border: 0;
+  outline: 0;
+}
+
+.top-nav > .left-right-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav > .left-right-column > .site-exploration {
+  padding: 0px 20px;
+  margin-left: 20px;
+}
+
+.top-nav > .left-right-column > .site-exploration > .links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav > .left-right-column > .site-exploration > .explore-container > .text {
+  padding: 0px 0px 0px 10px;
+  margin: 10px 10px 0px 10px;
+  color: #f4e17f;
+}
+
+.top-nav
+  > .left-right-column
+  > .site-exploration
+  > .links-container
+  > .site-exploration-element {
+  display: flex;
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+    Sans-Serif;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.top-nav
+  > .left-right-column
+  > .site-exploration
+  > .links-container
+  > .site-exploration-element
+  a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px 10px 20px;
+  transition: 0s;
+}
+
+.top-nav
+  > .left-right-column
+  > .site-exploration
+  > .links-container
+  > .site-exploration-element:hover {
+  border-bottom: solid 3px #47cf73;
+}
+
+.top-nav > .left-right-column > .spark {
+  display: flex;
+  height: 20px;
+  width: 80px;
+  margin: 40px 15px 10px 15px;
+}
+
+.top-nav > .left-right-column > .spark a {
+  color: #acacac;
+  text-decoration: none;
+  height: 20px;
+  width: 80px;
+}
+
+.top-nav > .left-right-column > .spark i {
+  margin-left: 10px;
+}
+
+.top-nav > .right-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav > .right-column > .btns-and-links > link i {
+  display: block;
+  height: 65px;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+
+.link > .fas {
+  color: #999;
+  margin-right: 15px;
+  font-size: 2em;
+  transition: 0s;
+}
+
+.link > .fas:hover {
+  color: white;
+}
